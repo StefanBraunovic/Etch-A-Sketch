@@ -39,8 +39,8 @@ function makeGrid(cols, rows){
             }
 
     function grdiSize(){
-             var x = parseFloat(prompt("Enter a Value", "0"));
-            var y = parseFloat(prompt("Enter a Value", "0"));
+             var x = parseFloat(prompt("Enter a columns value", "0"));
+            var y = parseFloat(prompt("Enter a rows value", "0"));
         if(x&&y<=64){
             makeGrid(x,y)
         }else{
